@@ -1,0 +1,76 @@
+<!-- Tarek Osama Bassiouny Ahmed Elnagar - Student ID: 225106842 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarek Alnagar - Profile Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-bar">
+            <span class="logo-text">Tarek Alnagar</span>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#cards-section">Skills</a>
+                <a href="https://www.youtube.com/@NerdAcademy0" target="_blank" rel="noopener noreferrer">Nerd Academy</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Tarek Osama Alnagar</h1>
+
+        <section class="profile-intro" id="about">
+            <img src="images/me.jpg" alt="Portrait photo of Tarek Alnagar" class="profile-photo">
+            <p class="bio-text">
+                Level 2 Computer Science student at New Mansoura University, .NET Backend Developer, and founder of 
+                <a href="https://www.youtube.com/@NerdAcademy0" target="_blank" rel="noopener noreferrer">Nerd Academy</a>. 
+                Passionate about blending technology with entrepreneurship, learning front-end development, and explaining programming concepts to younger students.
+            </p>
+        </section>
+
+        <section class="cards-row" id="cards-section">
+            <div class="card">
+                <h3>Backend &amp; Frontend</h3>
+                <p>Experienced in .NET and C# backend development, and currently expanding into modern front-end web technologies.</p>
+            </div>
+            <div class="card">
+                <h3>Nerd Academy</h3>
+                <p>Founder &amp; instructor on <a href="https://www.youtube.com/@NerdAcademy0" target="_blank" rel="noopener noreferrer">YouTube</a>, simplifying programming fundamentals for university students.</p>
+            </div>
+            <div class="card">
+                <h3>Tech &amp; Entrepreneurship</h3>
+                <p>Passionate about combining software engineering with entrepreneurial thinking to build impactful educational solutions.</p>
+            </div>
+        </section>
+
+        <section class="form-section" id="contact">
+            <h2>Leave a Message</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <div class="theme-toggle-container">
+            <button id="theme-toggle-btn">Toggle Dark Mode</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tarek Osama Alnagar. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
